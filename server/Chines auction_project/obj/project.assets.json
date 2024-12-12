@@ -4260,11 +4260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\לימודים\\projects for git\\chines auction final project\\project\\Chines auction_project\\Chines auction_project.csproj",
+      "projectUniqueName": "C:\\לימודים\\projects for git\\chines auction final project\\server\\Chines auction_project\\Chines auction_project.csproj",
       "projectName": "Chines auction_project",
-      "projectPath": "C:\\לימודים\\projects for git\\chines auction final project\\project\\Chines auction_project\\Chines auction_project.csproj",
+      "projectPath": "C:\\לימודים\\projects for git\\chines auction final project\\server\\Chines auction_project\\Chines auction_project.csproj",
       "packagesPath": "C:\\Users\\Hadassa\\.nuget\\packages\\",
-      "outputPath": "C:\\לימודים\\projects for git\\chines auction final project\\project\\Chines auction_project\\obj\\",
+      "outputPath": "C:\\לימודים\\projects for git\\chines auction final project\\server\\Chines auction_project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hadassa\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
-// import { presentservice } from './service/presentservice'; // presents
 import { Button } from "primereact/button";
 import { DataView, DataViewLayoutOptions } from "primereact/dataview";
-// import { Rating } from 'primereact/rating';
-import { Tag } from "primereact/tag";
 import { classNames } from "primereact/utils";
 import axios from "axios";
 import { Toast } from "primereact/toast";
 import { InputText } from "primereact/inputtext";
 import { Dialog } from "primereact/dialog";
 import { InputTextarea } from "primereact/inputtextarea";
-import { InputNumber } from "primereact/inputnumber";
-import { CIcon } from "@coreui/icons-react";
 import { Dropdown } from "primereact/dropdown";
 import {Avatar} from "primereact/avatar"
 import Home from "./menuBarManager";
@@ -36,21 +31,16 @@ export default function PresentsManagement() {
   const [present, setPresent] = useState(emptyPresent);
   const [sender, setSender] = useState("new");
   const toast = useRef(null);
-  const [value, setValue] = useState(present.price, present);
   const [selectedDonor, setSelectedDonor] = useState(null);
   const [DonorsList, setDonorsList] = useState([]);
   const [winner, setWinner] = useState(null);
-
   const [selectedCategory, setselectedCategory] = useState(null);
   const [CategoryList, setCategoryList] = useState([]);
   const [presentDonorList, setPresentDonorList] = useState([]);
 
   const addPresent = async (present) => {
     try {
-      console.log(
-        "---------------------------------------------- add present --- ",
-        present
-      );
+      console.log("add present",present);
       await axios
         .post(`/Present/AddPresents`, present)
         .then((res) => console.log(res.data.name));
@@ -59,18 +49,16 @@ export default function PresentsManagement() {
       alert(err);
     }
   };
-
+  
   const getAllPresents = async () => {
     try {
       let tmp = await axios.get(`/Present/GetPresents`).then((res) => {
-        console.log(res.data);
+        console.log("all ++//**-- ++//**-- ++//**--",res.data);
         return res.data;
       });
-      console.log("getAllPresents--------------------", tmp);
       setPresents(tmp);
       await GetPresentWithDonor(tmp)
     } catch (err) {
-      // alert(err);
       console.log(err);
     }
   };
@@ -94,8 +82,6 @@ export default function PresentsManagement() {
         console.log(res.data);
         return res.data;
       });
-
-      console.log("---------------------------", tmp);
       setDonorsList(tmp);
     } catch (err) {
       alert(err);
@@ -103,14 +89,12 @@ export default function PresentsManagement() {
   };
 
   const getDonorById = async (id) => {
-    console.log("getDonorById/////////////////", id);
+    console.log("getDonorById", id);
     try {
       let tmp = await axios.get(`/Donor/GetDonorById?donorId=${id}`).then((res) => {
         console.log(res.data);
         return res.data;
       });
-
-      console.log("---------------------------", tmp);
       setSelectedDonor(tmp);
       return tmp;
     } catch (err) {
@@ -120,7 +104,6 @@ export default function PresentsManagement() {
 
   const GetPresentWithDonor = async (tmp) => {
     let PresentDonorTmp = [];
-
     for (let i = 0; i < tmp.length; i++) {
       const updatedObject = await aa(tmp[i]);
       PresentDonorTmp.push(updatedObject);
@@ -131,7 +114,6 @@ export default function PresentsManagement() {
   const aa = async (tmp) => {
     const DonorObj = await getDonorById(tmp.donorId);
     const updatedObject = { ...tmp, Donor: DonorObj };
-
     return updatedObject;
   };
 
@@ -143,6 +125,7 @@ export default function PresentsManagement() {
   }, []);
 
   const listItem = (present, index) => {
+    if (!present) return null;
     return (
       <div className="col-12" key={present.id}>
         <div
@@ -210,10 +193,6 @@ export default function PresentsManagement() {
 
   }, [])
   const openEditDialog = async (presentId, present) => {
-    {
-      console.log("present in edit------------------", present);
-    }
-
     await getDonorById(present.donorId);
     setselectedCategory(present.category)
     // setSelectedDonor(present.donor.name)
@@ -221,13 +200,11 @@ export default function PresentsManagement() {
     setProductDialog(true);
     setSender("edit");
   };
-  const deletePresent = async(presentId) => {
 
+  const deletePresent = async(presentId) => {
     try {
       setDeleteProductDialog(false);
-
-      console.log("--- deleted present --- ", presentId);
-
+      console.log("--- deleted present --- ", presentId);   
       await axios.delete(`/Present/RemovePresent/${presentId}`).then((res) => {
          getAllPresents();
       });
@@ -245,8 +222,6 @@ export default function PresentsManagement() {
           presentId: presentId
         }
       });
-      //debugger
-
       console.log(response.data);
       setWinner(response.data.winnerId);
       await getAllPresents();
@@ -279,9 +254,7 @@ export default function PresentsManagement() {
       imagePath: present.imagePath,
       description: present.description,
     };
-    {
-      console.log("*********", present);
-    }
+
     if (
       present.name.trim() &&
       present.imagePath.trim() &&
@@ -290,10 +263,7 @@ export default function PresentsManagement() {
       selectedDonor.id &&
       present.price
     ) {
-      if (sender == "edit") {
-        {
-          console.log("tmp present*****", tmpPresent);
-        }
+      if (sender == "edit") {    
 
         await editPresent(present.id, tmpPresent);
         toast.current.show({
@@ -313,7 +283,7 @@ export default function PresentsManagement() {
         summary: "Error Message",
         detail: "Validation failed",
       });
-    // setProducts(_products);
+
     setProductDialog(false);
     setPresent(emptyPresent);
   };
@@ -328,6 +298,7 @@ export default function PresentsManagement() {
     } catch (err) {
       alert(err);
     }
+    
   };
   const productDialogFooter = (
     <React.Fragment>
@@ -347,7 +318,6 @@ export default function PresentsManagement() {
                 {present.category.description}
               </span>
             </div>
-            {/* <Tag value={present.inventoryStatus} severity={getSeverity(present)}></Tag> */}
           </div>
           <div className="flex flex-column align-items-center gap-3 py-5">
             <img
@@ -356,7 +326,6 @@ export default function PresentsManagement() {
               alt={present.name}
             />
             <div className="text-2xl font-bold">{present.name}</div>
-            {/* <Rating value={present.rating} readOnly cancel={false}></Rating> */}
           </div>
           <div className="flex align-items-center gap-2">
             <span className="text-1.5xl font-bold text-900">Donor</span>
@@ -389,8 +358,6 @@ export default function PresentsManagement() {
     if (!product) {
       return;
     }
-
-    // const donor=await getDonorById(product.donorId);
     if (layout === "list") return listItem(product, index);
     else if (layout === "grid") return gridItem(product);
   };
@@ -414,15 +381,14 @@ export default function PresentsManagement() {
     if (name == "") {
       await getAllPresents()
     }
-    console.log("*******name", name);
+    console.log("name", name);
     try {
       let tmp = await axios.get(`/Present/SearchByName?name=${name}`).then((res) => {
         console.log(res.data);
         return res.data;
-
       });
       console.log('tmp', tmp);
-      setPresents([...tmp]);
+      setPresents(tmp);
       await GetPresentWithDonor(tmp)
 
     } catch (err) {
@@ -435,17 +401,14 @@ export default function PresentsManagement() {
     if (name == "") {
       await getAllPresents()
     }
-    console.log("*******name", name);
+    console.log("name", name);
     try {
       let tmp = await axios.get(`/Present/SearchByDonor?donor=${name}`).then((res) => {
-        console.log(res.data);
+        console.log("donor ++//**-- ++//**-- ++//**--",res.data);
         return res.data;
-
       });
-      console.log('tmp', tmp);
-      setPresents([...tmp]);
+      setPresents(tmp);
       await GetPresentWithDonor(tmp)
-
     } catch (err) {
       console.log(err);
     }
@@ -456,17 +419,13 @@ export default function PresentsManagement() {
     if (name == "") {
       await getAllPresents()
     }
-    console.log("*******name", name);
     try {
       let tmp = await axios.get(`/Present/SearchByNumOfPurcheses?numOfPurcheses=${name}`).then((res) => {
-        console.log(res.data);
+        console.log(res.data,"search By Num Of Purcheses");
         return res.data;
-
       });
-      console.log('tmp', tmp);
-      setPresents([...tmp]);
+      setPresents(tmp);
       await GetPresentWithDonor(tmp)
-
     } catch (err) {
       console.log(err);
     }
@@ -524,7 +483,6 @@ export default function PresentsManagement() {
               className="donor-image block m-auto pb-3"
             />
           )}
-
           <div className="field">
             <label htmlFor="name" className="font-bold">
               name
@@ -570,8 +528,6 @@ export default function PresentsManagement() {
               <label htmlFor="name" className="font-bold">
                 Price{" "}
               </label>
-              {/* <InputNumber inputId="stacked-buttons" id="price" value={present.price} onValueChange={(e) => setValue(e.value)} showButtons mode="currency" currency="USD" onChange={(e) => onInputChange(e, 'price')} required autoFocus className={classNames({ 'p-invalid': submitted && !present.price })} />
-                        {submitted && !present.price && <small className="p-error">Price is required.</small>} */}
               <InputText
                 id="price"
                 value={present.price}
@@ -615,7 +571,6 @@ export default function PresentsManagement() {
                 placeholder="Select a Donor"
                 className="w-full md:w-14rem"
               />
-
             </div>
 
             <div className="field col">

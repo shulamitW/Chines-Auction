@@ -591,3 +591,113 @@ C:\לימודים\projects for git\chines auction final project\project\Chines a
 C:\לימודים\projects for git\chines auction final project\project\Chines auction_project\obj\Debug\net7.0\Chines auction_project.pdb
 C:\לימודים\projects for git\chines auction final project\project\Chines auction_project\obj\Debug\net7.0\Chines auction_project.genruntimeconfig.cache
 C:\לימודים\projects for git\chines auction final project\project\Chines auction_project\obj\Debug\net7.0\ref\Chines auction_project.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.csproj.AssemblyReference.cache
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.AssemblyInfoInputs.cache
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.AssemblyInfo.cs
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.csproj.CoreCompileInputs.cache
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.MvcApplicationPartsAssemblyInfo.cs
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.MvcApplicationPartsAssemblyInfo.cache
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\refint\Chines auction_project.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.pdb
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\appsettings.Development.json
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\appsettings.json
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Chines auction_project.exe
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Chines auction_project.deps.json
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Chines auction_project.runtimeconfig.json
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Chines auction_project.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Chines auction_project.pdb
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\AutoMapper.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Azure.Core.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Azure.Identity.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\EPPlus.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\EPPlus.Interfaces.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Humanizer.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Scrutor.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.CodeDom.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Formats.Asn1.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Memory.Data.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Text.Encoding.CodePages.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Text.Json.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Text.Encoding.CodePages.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\staticwebassets\msbuild.Chines auction_project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\staticwebassets\msbuild.build.Chines auction_project.props
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Chines auction_project.props
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Chines auction_project.props
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\staticwebassets.pack.json
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\staticwebassets.build.json
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\staticwebassets.development.json
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\scopedcss\bundle\Chines auction_project.styles.css
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.csproj.CopyComplete
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\Chines auction_project.genruntimeconfig.cache
+C:\לימודים\projects for git\chines auction final project\server\Chines auction_project\obj\Debug\net7.0\ref\Chines auction_project.dll
