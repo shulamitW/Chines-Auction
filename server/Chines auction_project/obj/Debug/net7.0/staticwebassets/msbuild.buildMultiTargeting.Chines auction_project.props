@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Chines auction_project.props" />
+</Project>

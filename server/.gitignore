@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+\.vs
+\Chines auction_project\bin
+\Chines auction_project\obj
+
+# Build results
+*.exe
+*.dll
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+
+# Auto-generated files
+*.generated.cs
+
+# Logs
+*.log
+
+# Other
+*.swp

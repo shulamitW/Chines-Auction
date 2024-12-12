@@ -1,0 +1,13 @@
+# Client exclusions
+client/node_modules/
+client/build/
+client/.env
+
+# Server exclusions
+server/.vs
+server/bin/
+server/obj/
+
+# Common exclusions
+*.log
+.DS_Store
